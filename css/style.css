@@ -115,6 +115,19 @@ You can use Inspect Element or your editor to find selectors. */
 thead tr:first-child th:first-child{}
 
 /*Add selectors and rules here*/
+
+*:focus{
+  border: 3px dashed #417243 ;
+}
+
+tr:hover td{
+  background-color: hsla(345, 88%, 26%, .25);
+}
+tr:hover th{
+  background-color: hsla(345, 88%, 26%, .25);
+}
+
+
 tr:nth-child(even){
   background-color: #D1D1D1;
 }
