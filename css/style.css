@@ -137,10 +137,13 @@ tr:nth-child(odd){
 .colhead:last-child{
   border-top-right-radius: 50px;
 }
-.rowhead:nth-child(10){
+
+tr:last-child>.rowhead{
   border-bottom-left-radius: 50px;
 }
-
+tr:last-child>td:last-child{
+  border-bottom-right-radius: 50px;
+}
 
 
 footer{
