@@ -121,12 +121,11 @@ thead tr:first-child th:first-child{}
 }
 
 tr:hover td{
-  background-color: hsla(345, 88%, 26%, .25);
+  background-color: rgba(126, 8, 37,.25);
 }
 tr:hover th{
-  background-color: hsla(345, 88%, 26%, .25);
+  background-color: rgba(126, 8, 37,.25);
 }
-
 
 tr:nth-child(even){
   background-color: #D1D1D1;
